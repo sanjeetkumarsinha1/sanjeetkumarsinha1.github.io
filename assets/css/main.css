@@ -805,6 +805,8 @@ section,
 .hero .hero-image img {
   position: relative;
   z-index: 2;
+  opacity: 0.9; /* slight transparency */
+  border-radius: 1rem; /* optional, gives soft edges */
 }
 
 .hero .hero-image .shape-1,
@@ -812,6 +814,8 @@ section,
   position: absolute;
   border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
   z-index: 1;
+  filter: blur(50px);
+  opacity: 0.6;
 }
 
 .hero .hero-image .shape-1 {
